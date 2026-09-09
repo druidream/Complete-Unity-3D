@@ -1,2 +1,20 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# C#
+*.cs text linguist-language=C#
+
+# Unity generated / serialized YAML
+*.asset linguist-generated
+*.mat linguist-generated
+*.meta linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
+# Unity Editor window layouts; GitHub otherwise classifies .wlt as Wolfram
+*.wlt linguist-generated
+
+# Unity shaders
+*.shader text linguist-language=ShaderLab
+*.hlsl text linguist-language=HLSL
+*.cginc text linguist-language=HLSL
+*.compute text linguist-language=HLSL
