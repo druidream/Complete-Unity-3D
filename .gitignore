@@ -325,3 +325,33 @@ xcuserdata/
 # =========================
 
 /[Uu]nity-[Ii]phone/
+
+
+# =========================
+# Generated solution files (Unity 6)
+# =========================
+
+*.slnx
+
+
+# =========================
+# Unity Terrain Sample Assets
+# Official sample pack (~2GB uncompressed TIFFs). Not used by game scenes.
+# Reimport from Unity if you need the brushes/textures locally.
+# =========================
+
+**/TerrainSampleAssets/
+**/TerrainSampleAssets.meta
+
+
+# =========================
+# TextMesh Pro unused pipeline shaders
+# Essential Resources ships HDRP/URP/XR shadergraphs (~47k YAML lines).
+# This project only uses Canvas TextMeshProUGUI + TMP_SDF-Mobile.
+# =========================
+
+**/TextMesh Pro/Shaders/TMP_SDF-HDRP*.shadergraph
+**/TextMesh Pro/Shaders/TMP_SDF-HDRP*.shadergraph.meta
+**/TextMesh Pro/Shaders/TMP_SDF-URP*.shadergraph
+**/TextMesh Pro/Shaders/TMP_SDF-URP*.shadergraph.meta
+**/TextMesh Pro/Shaders/*SpaceWarp*
