@@ -10,6 +10,9 @@
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
+*.controller linguist-generated
+# Animation curves expand to huge YAML; treat as binary for git stat/diff
+*.anim binary linguist-generated
 # Unity Editor window layouts; GitHub otherwise classifies .wlt as Wolfram
 *.wlt linguist-generated
 
