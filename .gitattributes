@@ -16,8 +16,8 @@
 # Unity Editor window layouts; GitHub otherwise classifies .wlt as Wolfram
 *.wlt linguist-generated
 
-# Unity shaders
-*.shader text linguist-language=ShaderLab
-*.hlsl text linguist-language=HLSL
-*.cginc text linguist-language=HLSL
-*.compute text linguist-language=HLSL
+# Unity shaders (vendored TMP etc.) — keep as text for diffs, exclude from language stats
+*.shader text linguist-generated
+*.hlsl text linguist-generated
+*.cginc text linguist-generated
+*.compute text linguist-generated
